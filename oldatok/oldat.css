@@ -47,7 +47,9 @@ input {
 }
 
 #megoldas {
-	font-weight: bold;	
+	font-weight: bold;
+	color: teal;
+		
 }
 
 #forras 
