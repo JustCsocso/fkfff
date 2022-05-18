@@ -18,13 +18,13 @@ header
 
 
 header{     background-color: wheat;}
-nav{        background-color: silver;}
+nav{        background-color: #FAD27B;}
 .jobbsav{   background-color: sandybrown;}
-.tartalom{  background-color:khaki;}
+.tartalom{  background-color: #F4EB8F;}
 footer{     background-color: violet;}
 
 nav{
-    color: darkolivegreen;
+    color: black;
     padding-left: 20px;
 }
 nav a{
@@ -42,10 +42,23 @@ nav a:hover li{
     color: blueviolet;
     background-color: cornsilk;
 }
+nav h3{
+    border-bottom: 2px solid black;
+    text-align: center;
+}
 footer{
     text-align: center;
     min-height: 50px;
     padding-top: 15px;
+}
+.tartalom{
+    padding: 10px;
+    text-align: center;
+}
+.tartalom h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-variant: small-caps;
 }
 .infoBox
 {
@@ -103,6 +116,6 @@ footer{
     header { grid-column: 1 / 4;}
     nav { grid-column: 1;}
     .jobbsav{ grid-column: 3;}
-    .tartalom{ grid-column: 2;}
+    .tartalom{ grid-column: 2;grid-row: 2;}
     footer{ grid-column: 1 / 4;}
 }
