@@ -8,11 +8,11 @@ body{
 
 header
 {
-    height: 100px;
+    height: 200px;
     padding: 20px;
     text-align: right;
     background-image: url(erdély.jpg);
-    background-position-y: -250;
+    background-position-y: 650px;
     color: white;
 }
 
@@ -46,6 +46,22 @@ footer{
     text-align: center;
     min-height: 50px;
     padding-top: 15px;
+}
+.infoBox
+{
+    background-color: #d8760d;
+    background-color: sienna;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+}
+
+.infoBox h3
+{
+    margin: 0px;
+    text-align: center;
+    border-bottom: 1px solid tomato;
 }
 
 #grid-container
