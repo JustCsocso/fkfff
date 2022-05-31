@@ -60,6 +60,11 @@ footer{
     text-align: center;
     font-variant: small-caps;
 }
+.tartalom picture *{
+    max-width: 40%;
+    float: left;
+    margin-right: 10px;
+}
 .infoBox
 {
     background-color: #d8760d;
